@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_dialog_title">انتخاب مورد…</string>
+    <string name="search_dialog_close">بستن</string>
+    <string name="search">اینجا جستجو کنید..</string>
+</resources>

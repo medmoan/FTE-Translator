@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="farsi.toenglish.translation.uoi.fragments.AboutFragment"
+        android:label="AboutFragment"
+        tools:layout="@layout/fragment_about">
+
+    </fragment>
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="farsi.toenglish.translation.uoi.fragments.BookmarkFragment"
+        android:label="BookmarkFragment"
+        tools:layout="@layout/fragment_bookmark">
+        <action
+            android:id="@+id/action_bookmarkFragment_to_translateFragment"
+            app:destination="@id/translateFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"/>
+        <action
+            android:id="@+id/action_bookmarkFragment_to_conversationFragment"
+            app:destination="@id/conversationFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/conversationFragment"
+        android:name="farsi.toenglish.translation.uoi.fragments.ConversationFragment"
+        android:label="ConversationFragment"
+        tools:layout="@layout/fragment_conversation">
+
+        <action
+            android:id="@+id/action_conversationFragment_to_imageTranslationFragment"
+            app:destination="@id/imageTranslationFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="farsi.toenglish.translation.uoi.fragments.HistoryFragment"
+        android:label="HistoryFragment"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_historyFragment_to_translateFragment"
+            app:destination="@id/translateFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_historyFragment_to_conversationFragment"
+            app:destination="@id/conversationFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="farsi.toenglish.translation.uoi.fragments.SettingFragment"
+        android:label="SettingFragment"
+        tools:layout="@layout/fragment_setting">
+
+    </fragment>
+    <fragment
+        android:id="@+id/translateFragment"
+        android:name="farsi.toenglish.translation.uoi.fragments.TranslateFragment"
+        android:label="TranslateFragment"
+        tools:layout="@layout/fragment_translate">
+
+        <action
+            android:id="@+id/action_translateFragment_to_imageTranslationFragment"
+            app:destination="@id/imageTranslationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="farsi.toenglish.translation.uoi.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_bookmarkFragment"
+            app:destination="@id/bookmarkFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_conversationFragment"
+            app:destination="@id/conversationFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_historyFragment"
+            app:destination="@id/historyFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/settingFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_translateFragment"
+            app:destination="@id/translateFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_dictionaryFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:destination="@id/dictionaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageTranslationFragment"
+        android:name="farsi.toenglish.translation.uoi.fragments.ImageTranslationFragment"
+        android:label="ImageTranslationFragment" >
+        <action
+            android:id="@+id/action_imageTranslationFragment_to_translateFragment"
+            app:destination="@id/translateFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/translateFragment"/>
+        <action
+            android:id="@+id/action_imageTranslationFragment_to_conversationFragment"
+            app:destination="@id/conversationFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/conversationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dictionaryFragment"
+        android:name="farsi.toenglish.translation.uoi.fragments.DictionaryFragment"
+        android:label="DictionaryFragment" />
+</navigation>

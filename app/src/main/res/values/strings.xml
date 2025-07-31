@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FTE Translator</string>
+    <string name="title_app_name">Farsi to English Translator</string>
+    <string name="type_input">Type or paste some text</string>
+    <string name="start_new_conversation">Chat Translation</string>
+    <string name="start_new_translation">Normal Translation</string>
+    <string name="about">About</string>
+    <string name="new_conversation">Chat Translation</string>
+    <string name="new_translate">Normal Translation</string>
+    <string name="quick_share">You can enjoy translation in the app</string>
+    <string name="hint_text">Type your text here!</string>
+    <string name="no_internet_connection">No Internet Connection Available</string>
+    <string name="language_pack_missing">This language speech pack needs to be installed</string>
+    <string name="language_not_supported">This language speech is currently not supported</string>
+    <string name="select_matching_text">Select Matching Text</string>
+    <string name="process_tts">Switching Language</string>
+    <string name="share">Share</string>
+    <string name="rateus">Rate us</string>
+    <string name="no_text">No Text Available</string>
+    <string name="email" translatable="false">xx@gmail.com</string>
+    <string name="contactus">Thank you very much for installing our app. If you have any questions, please contact us :</string>
+    <string name="settings">Settings</string>
+    <string name="translate">Translate</string>
+    <string name="speech_prompt">Speak now&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device does not support speech input</string>
+    <string name="tap_on_mic">Tap the microphone to speak</string>
+
+    <!-- Rating dialog -->
+    <string name="rate_dialog_title">Please rate this app</string>
+    <string name="rate_dialog_message">If you enjoyed playing this app, would you rate it for a moment? It does not take more than a minute. Thank you for your support!</string>
+    <string name="rate_dialog_ok">Rate</string>
+    <string name="rate_dialog_cancel">Later</string>
+    <string name="rate_dialog_no">No</string>
+
+    <bool name="is_right_to_left">false</bool>
+    <bool name="is_farsi">false</bool>
+
+    <string name="selectlang">You have to choose a language, otherwise it will choose English</string>
+    <string name="def">Back to default languages setup</string>
+    <string name="setlangs">These languages now set as default</string>
+    <string name="adef">Already the default</string>
+    <string name="couldnt_find_info">Couldn\'t find information!</string>
+    <string name="too_big">Sorry, the text is too big to be translated!</string>
+    <string name="couldnt_translate">Sorry, the text could not be translated!</string>
+    <string name="dir_no_support">Sorry, this translation direction is not supported!</string>
+    <string name="error_report">Some internal error occurred! Please try again later.\nPlease report by sending mail, specifying this code:</string>
+    <string name="internet_error">An error occurred! \n Please check your internet connection or try again later.</string>
+    <string name="empty_bookmark_message">Bookmarked translations will appear here.</string>
+    <string name="empty_history_message">It seems that you haven\'t used this app yet!</string>
+    <string name="bookmak_deleted">Bookmark Deleted</string>
+    <string name="bookmark_added">Bookmark Added</string>
+    <string name="history">History</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="reset">Default</string>
+    <string name="logoAbout">Logo image</string>
+    <string name="versionAbout">Version\n00</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="privacy_policy_url" translatable="false">https://sites.google.com/view/xx</string>
+    <string name="emptyBookmark">Image revealing empty bookmark</string>
+    <string name="emptyHistory">Image revealing empty History</string>
+    <string name="imgMic">Microphone image, click to speak and translate</string>
+    <string name="translateImg">Image to click to translate</string>
+    <string name="logoHome">Logo image</string>
+    <string name="imgArrow">Image arrow, click to switch between the two languages</string>
+    <string name="imgClear">Clear image, a click clears the input text</string>
+    <string name="imgCopyInput">Image to copy input text</string>
+    <string name="imgCopyOutput">Image to copy output text</string>
+    <string name="imgShareInput">Image to share the input text</string>
+    <string name="imgShareOutput">Image to share the output text</string>
+    <string name="imgSpeakInput">Speak image, click to speak the input text</string>
+    <string name="imgSpeakOutput">Speak image, click to speak the output text</string>
+    <string name="imgCloseDialog">Image to close the dialog</string>
+    <string name="imgLogoDialog">Image logo of the app</string>
+    <string name="imgDelete">Trash image to delete the item</string>
+    <string name="imgAddBookmark">Bookmark image to add the item to bookmarks</string>
+    <string name="imgLogoSplash">Image logo of the app</string>
+    <string name="backDescription">Back to main window</string>
+    <string name="overflowMenuDesc">Image to show menu items</string>
+    <string name="hintInput">Type here to translate</string>
+    <string name="clear">clear</string>
+    <string name="select_app_lang">Choose a language of the app, otherwise it will use locale language</string>
+    <string name="select_preferred_langs">Choose a preferred language: language to translate from and language to translate to</string>
+    <string name="apply">Apply</string>
+    <string name="persian">Persian</string>
+    <string name="english">English</string>
+    <string name="savedchanges">Changes saved!</string>
+    <string name="textcopied">Your Text is copied</string>
+    <string name="offline_dictionary">Offline dictionary</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="yourtext">Your Text</string>
+    <string name="emptyfield">Field shouldn\'t be empty</string>
+    <string name="unexpectederror">An unexpected error happened</string>
+    <string name="readingerror">Reading Error!</string>
+    <string name="share_emptyfiled">Cannot share an empty field!</string>
+    <string name="copy_emptyfield">Cannot copy an empty field!</string>
+    <string name="language_not_identified">No language could be identified!</string>
+    <string name="select_language">Select Language</string>
+    <string name="share_via">Share via</string>
+    <string name="translation_deleted">Translation deleted!</string>
+    <string-array name="language_names">
+        <item>Afrikaans</item>
+        <item>Albanian</item>
+        <item>Amharic</item>
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>Azerbaijani</item>
+        <item>Basque</item>
+        <item>Belarusian</item>
+        <item>Bengali</item>
+        <item>Bosnian</item>
+        <item>Bulgarian</item>
+        <item>Burmese</item>
+        <item>Catalan</item>
+        <item>Cebuano</item>
+        <item>Chinese</item>
+        <item>Croatian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Esperanto</item>
+        <item>Estonian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Galician</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Gujarati</item>
+        <item>Haitian</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indonesian</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Javanese</item>
+        <item>Kannada</item>
+        <item>Kazakh</item>
+        <item>Khmer</item>
+        <item>Korean</item>
+        <item>Kyrgyz</item>
+        <item>Lao</item>
+        <item>Latin</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Luxembourgish</item>
+        <item>Macedonian</item>
+        <item>Malagasy</item>
+        <item>Malay</item>
+        <item>Malayalam</item>
+        <item>Maltese</item>
+        <item>Maori</item>
+        <item>Marathi</item>
+        <item>Mongolian</item>
+        <item>Nepali</item>
+        <item>Norwegian</item>
+        <item>Persian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Punjabi</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Scottish_Gaelic</item>
+        <item>Serbian</item>
+        <item>Sinhala</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Sundanese</item>
+        <item>Swahili</item>
+        <item>Swedish</item>
+        <item>Tagalog</item>
+        <item>Tajik</item>
+        <item>Tamil</item>
+        <item>Tatar</item>
+        <item>Telugu</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Uzbek</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Xhosa</item>
+        <item>Yiddish</item>
+    </string-array>
+    <string-array name="languages_codes" translatable="false">
+        <item>af</item>
+        <item>sq</item>
+        <item>am</item>
+        <item>ar</item>
+        <item>hy</item>
+        <item>az</item>
+        <item>eu</item>
+        <item>be</item>
+        <item>bn</item>
+        <item>bs</item>
+        <item>bg</item>
+        <item>my</item>
+        <item>ca</item>
+        <item>ceb</item>
+        <item>zh</item>
+        <item>hr</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>eo</item>
+        <item>et</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>gl</item>
+        <item>ka</item>
+        <item>de</item>
+        <item>el</item>
+        <item>gu</item>
+        <item>ht</item>
+        <item>he</item>
+        <item>hi</item>
+        <item>hu</item>
+        <item>is</item>
+        <item>id</item>
+        <item>ga</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>jv</item>
+        <item>kn</item>
+        <item>kk</item>
+        <item>km</item>
+        <item>ko</item>
+        <item>ky</item>
+        <item>lo</item>
+        <item>la</item>
+        <item>lv</item>
+        <item>lt</item>
+        <item>lb</item>
+        <item>mk</item>
+        <item>mg</item>
+        <item>ms</item>
+        <item>ml</item>
+        <item>mt</item>
+        <item>mi</item>
+        <item>mr</item>
+        <item>mn</item>
+        <item>ne</item>
+        <item>no</item>
+        <item>fa</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>pa</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>gd</item>
+        <item>sr</item>
+        <item>si</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>es</item>
+        <item>su</item>
+        <item>sw</item>
+        <item>sv</item>
+        <item>tl</item>
+        <item>tg</item>
+        <item>ta</item>
+        <item>tt</item>
+        <item>te</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>ur</item>
+        <item>uz</item>
+        <item>vi</item>
+        <item>cy</item>
+        <item>xh</item>
+        <item>yi</item>
+    </string-array>
+    <string name="version">Version</string>
+    <string name="close">Close</string>
+    <string name="scanTranslate">Scan to translate</string>
+    <string name="scanImage">Scan the object and get the text</string>
+    <string name="not_get_text">Could not catch text!</string>
+    <string name="permisionexpl">Accept permission if you want to capture text from the camera</string>
+    <string name="update_downloaded">An update has just been downloaded.</string>
+    <string name="install">INSTALL</string>
+    <string name="privacy_settings">Privacy settings</string>
+    <string name="update_please">Update the app via google play store please</string>
+    <string name="consentplease">Please consent for good user experience</string>
+    <string name="consent">Consent</string>
+    <string name="couldnt_open">Couldn\'t open the link on web browser for some reasons</string>
+    <string name="couldnt_share">Couldn\'t share the App for some reason</string>
+    <string name="type_your_word">Type your word</string>
+    <string name="app_sources">The app uses: a translation API provided by Google for translation and Text recognition By Google for detecting text in images</string>
+    <string name="unknown">Unknown</string>
+    <string name="startapp_app_id" translatable="false">103509410</string>
+</resources>

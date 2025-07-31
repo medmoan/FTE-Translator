@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مترجم متن فارسی به انگلیسی</string>
+    <string name="title_app_name">مترجم متن فارسی به انگلیسی</string>
+    <string name="type_input">متنی را تایپ یا جایگذاری کنید</string>
+    <string name="start_new_conversation">ترجمه مکالمه</string>
+    <string name="start_new_translation">ترجمه عادی</string>
+    <string name="about">درباره</string>
+    <string name="new_conversation">ترجمه مکالمه</string>
+    <string name="new_translate">ترجمه عادی</string>
+    <string name="quick_share">بهترین برنامه ای که می توانید برای ترجمه پیدا کنید</string>
+    <string name="hint_text">متن خود را اینجا تایپ کنید!</string>
+    <string name="no_internet_connection">اتصال به اینترنت در دسترس نیست</string>
+    <string name="language_pack_missing">این بسته گفتاری زبان باید نصب شود</string>
+    <string name="language_not_supported">این گفتار زبان در حال حاضر پشتیبانی نمی شود</string>
+    <string name="select_matching_text">متن مطابق را انتخاب کنید</string>
+    <string name="process_tts">تغییر زبان</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="rateus">نرخ</string>
+    <string name="no_text">هیچ متنی موجود نیست</string>
+    <string name="contactus">از اینکه برنامه ما را نصب کردید بسیار متشکریم. اگر سوالی دارید لطفا با ما تماس بگیرید :</string>
+    <string name="settings">تنظیمات</string>
+    <string name="translate">ترجمه</string>
+
+    <string name="speech_prompt">الان صحبت کن&#8230;</string>
+    <string name="speech_not_supported">متاسف! دستگاه شما از ورودی گفتار پشتیبانی نمی کند</string>
+    <string name="tap_on_mic">برای صحبت کردن، روی میکروفون ضربه بزنید</string>
+
+    <string name="selectlang">شما باید یک زبان را انتخاب کنید وگرنه انگلیسی را انتخاب می کند</string>
+
+    <string name="def">بازگشت به تنظیمات زبان های پیش فرض</string>
+    <string name="setlangs">این زبان ها اکنون به عنوان پیش فرض تنظیم شده اند</string>
+    <string name="adef">در حال حاضر پیش فرض است</string>
+    <string name="couldnt_find_info">اطلاعات پیدا نشد!</string>
+    <string name="too_big">با عرض پوزش، متن برای ترجمه بسیار بزرگ است!</string>
+    <string name="couldnt_translate">با عرض پوزش، متن قابل ترجمه نیست!</string>
+    <string name="dir_no_support">با عرض پوزش، این جهت ترجمه پشتیبانی نمی شود!</string>
+    <string name="error_report">برخی از خطاهای داخلی رخ داده است! لطفاً بعداً دوباره امتحان کنید.\nلطفاً با ارسال نامه، با مشخص کردن این کد، گزارش دهید:</string>
+    <string name="internet_error">خطایی رخ داد! \n لطفاً اتصال اینترنت خود را بررسی کنید یا بعداً دوباره امتحان کنید.</string>
+    <string name="empty_bookmark_message">ترجمه های نشانک گذاری شده در اینجا ظاهر می شوند.</string>
+    <string name="empty_history_message">به نظر می رسد که شما هنوز از این برنامه استفاده نکرده اید!</string>
+    <string name="bookmak_deleted">نشانک حذف شد</string>
+    <string name="bookmark_added">نشانک اضافه شد</string>
+    <string name="history">تاریخ</string>
+    <string name="bookmarks">نشانک</string>
+    <string name="reset">پیشفرض</string>
+    <string name="logoAbout">لوگو</string>
+    <string name="versionAbout">نسخه</string>
+    <string name="privacy_policy">سیاست حفظ حریم خصوصی</string>
+    <string name="emptyBookmark">نشانک خالی</string>
+    <string name="emptyHistory">تاریخچه خالی</string>
+    <string name="imgMic">صحبت</string>
+    <string name="translateImg">ترجمه</string>
+    <string name="logoHome">لوگو</string>
+    <string name="imgArrow">سوئیچ بین دو زبان</string>
+    <string name="imgClear">پاکسازی</string>
+    <string name="imgCopyInput">متن ورودی را کپی کنید</string>
+    <string name="imgCopyOutput">متن ترجمه شده را کپی کنید</string>
+    <string name="imgShareInput">متن ورودی را به اشتراک بگذارید</string>
+    <string name="imgShareOutput">متن ترجمه شده را به اشتراک بگذارید</string>
+    <string name="imgSpeakInput">صحبت</string>
+    <string name="imgSpeakOutput">صدای خروجی را بشنوید</string>
+    <string name="imgCloseDialog">بستن</string>
+    <string name="imgLogoDialog">لوگو</string>
+    <string name="imgDelete">تصویر سطل زباله</string>
+    <string name="imgAddBookmark">تصویر نشانک</string>
+    <string name="imgLogoSplash">لوگو</string>
+    <string name="backDescription">تصویر پشت</string>
+    <string name="overflowMenuDesc">منوی سرریز</string>
+    <string name="hintInput">برای ترجمه اینجا تایپ کنید</string>
+    <string name="clear">پاکسازی</string>
+
+    <bool name="is_right_to_left">true</bool>
+    <bool name="is_farsi">true</bool>
+    <!-- Rating dialog -->
+    <string name="rate_dialog_title">لطفا به این برنامه امتیاز دهید</string>
+    <string name="rate_dialog_message">اگر از بازی کردن این برنامه لذت می بردید، برای لحظه ای به آن امتیاز می دهید؟ یک دقیقه بیشتر طول نمی کشد. از حمایت شما متشکرم</string>
+    <string name="rate_dialog_ok">نرخ</string> <!--ارزش نرخ-->
+    <string name="rate_dialog_cancel">بعد</string>
+    <string name="rate_dialog_no">نه</string>
+
+    <string name="select_app_lang">زبان برنامه را انتخاب کنید، در غیر این صورت از زبان محلی استفاده می کند</string>
+    <string name="select_preferred_langs">زبان مورد نظر را انتخاب کنید: زبانی که باید از آن ترجمه شود و زبانی که باید به آن ترجمه شود</string>
+    <string name="apply">اعمال کردن</string>
+    <string name="persian">فارسی</string>
+    <string name="english">انگلیسی</string>
+    <string name="savedchanges">تغییرات ذخیره شد!</string>
+    <string name="textcopied">متن شما کپی شده است</string>
+    <string name="yourtext">نوشته ی تو</string>
+    <string name="offline_dictionary">فرهنگ لغت آفلاین</string>
+    <string name="dictionary">فرهنگ لغت</string>
+    <string name="emptyfield">فیلد نباید خالی باشد</string>
+    <string name="unexpectederror">یک خطای غیرمنتظره رخ داد</string>
+    <string name="readingerror">خطای خواندن!</string>
+    <string name="share_emptyfiled">نمی توان یک فیلد خالی را به اشتراک گذاشت!</string>
+    <string name="copy_emptyfield">نمی توان یک فیلد خالی را کپی کرد!</string>
+    <string name="language_not_identified">هیچ زبانی شناسایی نشد!</string>
+    <string name="select_language">زبان را انتخاب کنید</string>
+    <string name="share_via">اشتراک گذاری از طریق</string>
+    <string name="translation_deleted">ترجمه حذف شد!</string>
+    <string-array name="language_names">
+        <item>آفریقایی</item>
+        <item>آلبانیایی</item>
+        <item>آمهری</item>
+        <item>عربی</item>
+        <item>ارمنی</item>
+        <item>آذربایجانی</item>
+        <item>باسک</item>
+        <item>بلاروسی</item>
+        <item>بنگالی</item>
+        <item>بوسنیایی</item>
+        <item>بلغاری</item>
+        <item>برمه ای</item>
+        <item>کاتالان</item>
+        <item>سبوانو</item>
+        <item>چینی</item>
+        <item>کرواتی</item>
+        <item>چک</item>
+        <item>دانمارکی</item>
+        <item>هلندی</item>
+        <item>انگلیسی</item>
+        <item>اسپرانتو</item>
+        <item>استونیایی</item>
+        <item>فنلاندی</item>
+        <item>فرانسوی</item>
+        <item>گالیسی</item>
+        <item>گرجی</item>
+        <item>آلمانی</item>
+        <item>یونانی</item>
+        <item>گجراتی</item>
+        <item>هائیتی</item>
+        <item>عبری</item>
+        <item>هندی</item>
+        <item>مجارستانی</item>
+        <item>ایسلندی</item>
+        <item>اندونزیایی</item>
+        <item>ایرلندی</item>
+        <item>ایتالیایی</item>
+        <item>ژاپنی</item>
+        <item>جاوه ای</item>
+        <item>کانادا</item>
+        <item>قزاقستانی</item>
+        <item>خمر</item>
+        <item>کره ای</item>
+        <item>قرقیزی</item>
+        <item>لائوس</item>
+        <item>لاتین</item>
+        <item>لتونیایی</item>
+        <item>لیتوانیایی</item>
+        <item>لوگزامبورگی</item>
+        <item>مقدونی</item>
+        <item>مالاگازی</item>
+        <item>مالایی</item>
+        <item>مالایایی</item>
+        <item>مالتی</item>
+        <item>مائوری</item>
+        <item>مراتی</item>
+        <item>مغولی</item>
+        <item>نپالی</item>
+        <item>نروژی</item>
+        <item>فارسی</item>
+        <item>لهستانی</item>
+        <item>پرتغالی</item>
+        <item>پنجابی</item>
+        <item>رومانیایی</item>
+        <item>روسی</item>
+        <item>اسکاتلندی_گائلیکی</item>
+        <item>صربی</item>
+        <item>سینهالی</item>
+        <item>اسلواکی</item>
+        <item>اسلوونیایی</item>
+        <item>اسپانیایی</item>
+        <item>سواندانی</item>
+        <item>سواحیلی</item>
+        <item>سوئدی</item>
+        <item>تاگالوگ</item>
+        <item>تاجیک</item>
+        <item>تامیل</item>
+        <item>تاتار</item>
+        <item>تلوگو</item>
+        <item>تایلندی</item>
+        <item>ترکی</item>
+        <item>اوکراینی</item>
+        <item>اردو</item>
+        <item>ازبک</item>
+        <item>ویتنامی</item>
+        <item>ولزی</item>
+        <item>خوسا</item>
+        <item>ییدیش</item>
+    </string-array>
+    <string name="version">نسخه</string>
+    <string name="close">اغلق</string>
+    <string name="scanTranslate">برای ترجمه اسکن کنید</string>
+    <string name="scanImage">شی را اسکن کنید و متن را دریافت کنید</string>
+    <string name="not_get_text">نمی توان متن را دریافت کرد!</string>
+    <string name="permisionexpl">اگر می خواهید متنی را از دوربین بگیرید، مجوز را بپذیرید</string>
+    <string name="update_downloaded">یک به روز رسانی به تازگی دانلود شده است.</string>
+    <string name="install">نصب</string>
+    <string name="privacy_settings">تنظیمات حریم خصوصی</string>
+    <string name="update_please">لطفاً برنامه را از طریق فروشگاه Google Play به روز کنید</string>
+    <string name="consentplease">لطفا برای تجربه کاربری خوب موافقت کنید</string>
+    <string name="consent">رضایت</string>
+    <string name="couldnt_open">به دلایلی پیوند در مرورگر وب باز نشد</string>
+    <string name="couldnt_share">به دلایلی نمی‌توان برنامه را به اشتراک گذاشت</string>
+    <string name="type_your_word">کلمه خود را تایپ کنید</string>
+    <string name="app_sources">این برنامه از: API ترجمه ارائه شده توسط Google برای ترجمه و تشخیص متن توسط Google و همچنین برای تشخیص متن در تصاویر استفاده می کند.</string>
+    <string name="unknown">ناشناخته</string>
+</resources>

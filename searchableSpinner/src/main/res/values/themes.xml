@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogTheme">
+        <!-- title encapsulating main part (backgroud) of custom alertdialog -->
+        <item
+            name="android:windowFrame">@null</item>
+        <!-- turn off any drawable used to draw a frame on the window -->
+        <!-- <item name="android:windowBackground">@null</item> -->
+        <!-- turn off any drawable used to draw a frame on the window -->
+        <item
+            name="android:windowIsFloating">true</item>
+        <!-- float the window so it does not fill the screen -->
+        <item
+            name="android:windowNoTitle">true</item>
+        <!-- remove the title bar we make our own-->
+        <item
+            name="android:windowContentOverlay">@null</item>
+        <!-- remove the shadow from under the title bar -->
+        <item name="android:backgroundDimAmount">0.5</item>
+
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">16sp</item>
+        <!-- Query Text Color -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!-- Hint Color -->
+        <item name="android:textColorHint">@android:color/holo_green_light</item>
+        <!-- Icon Color -->
+        <item name="android:tint">@android:color/holo_green_dark</item>
+    </style>
+    <style name="ThemeOverlay.Material3.Toolbar.Surface" parent="@style/ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@android:color/holo_green_dark</item>
+    </style>
+</resources>

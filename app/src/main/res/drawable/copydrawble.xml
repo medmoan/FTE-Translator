@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/copy"
+        android:state_pressed="true">
+    <bitmap
+        android:src="@drawable/copy"
+        android:tint="@color/colorPrimary"
+        />
+    </item>
+
+    <item>
+        <bitmap
+            android:src="@drawable/copy"
+            android:tint="@color/colorDarkGray"
+            />
+    </item>
+</selector>
